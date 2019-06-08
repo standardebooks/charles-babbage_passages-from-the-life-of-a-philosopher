@@ -1,6 +1,44 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.currency{
+	font-style: italic;
+}
+
+var{
+	font-style: italic;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+caption{
+	font-style: italic;
+}
+
+th,
+td{
+	padding: .25em .5em;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+thead th{
+	text-align: center;
+}
+
+td.numeral{
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+
+td.result{
+	border-top: 1px solid;
+}
+
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
