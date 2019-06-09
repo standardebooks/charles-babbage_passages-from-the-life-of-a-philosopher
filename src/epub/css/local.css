@@ -9,6 +9,21 @@ var{
 	font-style: italic;
 }
 
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
 table{
 	border-collapse: collapse;
 	margin: 1em auto;
