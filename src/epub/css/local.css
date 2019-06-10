@@ -9,6 +9,15 @@ var{
 	font-style: italic;
 }
 
+blockquote header{
+	margin-bottom: 1em;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 figure{
 	margin: 1em auto;
 	text-align: center;
@@ -110,6 +119,16 @@ section[epub|type~="epigraph"] > *{
 
 [epub|type~="bridgehead"] i{
 	font-style: normal;
+}
+
+[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-style: italic;
+}
+
+.signature,
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
 }
 
 /* number sequences in chapter 5 */
