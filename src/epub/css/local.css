@@ -65,3 +65,28 @@ td.result{
 [epub|type~="bridgehead"] i{
 	font-style: normal;
 }
+
+/* number sequences in chapter 5 */
+
+.sequence{
+	list-style: none;
+	text-align: center;
+	margin: 1em auto;
+	padding: 0;
+}
+.sequence>li{
+	display: inline;
+	margin: 0 1em;
+}
+.sequence p{
+	display: inline;
+}
+@supports(display: flex){
+	.sequence{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.sequence>li{
+		margin: 0;
+	}
+}
