@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 200 30">
+  <text font-size="10">
+    <tspan x="18" y="8">+</tspan>
+    <tspan x="72" y="8">−</tspan>
+    <tspan x="124" y="8">×</tspan>
+    <tspan x="177" y="8">÷</tspan>
+  </text>
+  <rect fill="none" stroke="currentColor" x="0.5" y="10.5" height="19" width="39" />
+  <circle fill="none" stroke="currentColor" r="2" cx="8" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="16" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="24" cy="20" />
+  <rect fill="none" stroke="currentColor" x="53.833" y="10.5" height="19" width="39" />
+  <circle fill="none" stroke="currentColor" r="2" cx="61.333" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="69.333" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="85.333" cy="20" />
+  <rect fill="none" stroke="currentColor" x="107.167" y="10.5" height="19" width="39" />
+  <circle fill="none" stroke="currentColor" r="2" cx="114.667" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="130.667" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="138.667" cy="20" />
+  <rect fill="none" stroke="currentColor" x="160.5" y="10.5" height="19" width="39" />
+  <circle fill="none" stroke="currentColor" r="2" cx="176" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="184" cy="20" />
+  <circle fill="none" stroke="currentColor" r="2" cx="192" cy="20" />
+</svg>
