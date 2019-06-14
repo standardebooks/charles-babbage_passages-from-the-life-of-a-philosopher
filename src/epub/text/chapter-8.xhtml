@@ -272,8 +272,10 @@
 			<p>Thus it appears that the whole of the conditions which enable a <i>finite</i> machine to make calculations of <i>unlimited</i> extent are fulfilled in the Analytical Engine. The means I have adopted are uniform. I have converted the infinity of space, which was required by the conditions of the problem, into the infinity of time. The means I have employed are in daily use in the art of weaving patterns. It is accomplished by systems of cards punched with various holes strung together to any extent which may be demanded. Two large boxes, the one empty and the other filled with perforated cards, are placed before and behind a polygonal prism, which revolves at intervals upon its axis, and advances through a short space, after which it immediately returns.</p>
 			<p>A card passes over the prism just before each stroke of the shuttle; the cards that have passed hang down until they reach the empty box placed to receive them, into which they arrange themselves one over the other. When the box is full, another empty box is placed to receive the coming cards, and a new full box on the opposite side replaces the one just emptied. As the suspended cards on the entering side are exactly equal to those on the side at which the others are delivered, they are perfectly balanced, so that whether the formulæ to be computed be excessively complicated or very simple, the force to be exerted always remains nearly the same.</p>
 			<p>In 1840 I received from my friend M. Plana a letter pressing me strongly to visit Turin at the then approaching meeting of Italian phi­los­o­phers. In that letter M. Plana stated that he had inquired anxiously of many of my countrymen about the power and mechanism of the Analytical Engine. He remarked that from all the information he could collect the case seemed to stand thus:⁠—</p>
-			<p>“Hitherto the <i>legislative</i> department of our analysis has been all powerful⁠—the <i>executive</i> all feeble.</p>
-			<p>“Your engine seems to give us the same control over the executive which we have hitherto only possessed over the legislative department.”</p>
+			<blockquote epub:type="z3998:letter">
+				<p>“Hitherto the <i>legislative</i> department of our analysis has been all powerful⁠—the <i>executive</i> all feeble.</p>
+				<p>“Your engine seems to give us the same control over the executive which we have hitherto only possessed over the legislative department.”</p>
+			</blockquote>
 			<p>Considering the exceedingly limited information which could have reached my friend respecting the Analytical Engine, I was equally surprised and delighted at his exact prevision of its powers. Even at the present moment I could not express more clearly, and in fewer terms, its real object. I collected together such of my models, drawings, and notations as I conceived to be best adapted to give an insight into the principles and mode of operating of the Analytical Engine. On mentioning my intention to my excellent friend the late Professor MacCullagh, he resolved to give up a trip to the Tyrol, and join me at Turin.</p>
 			<p>We met at Turin at the appointed time, and as soon as the first bustle of the meeting had a little abated, I had the great pleasure of receiving at my own apartments, for several mornings, Messrs. Plana, Menabrea, Mossotti, MacCullagh, Plantamour, and others of the most eminent geometers and engineers of Italy.</p>
 			<p>Around the room were hung the formula, the drawings, notations, and other illustrations which I had brought with me. I began on the first day to give a short outline of the idea. My friends asked from time to time further explanations of parts I had not made sufficiently clear. M. Plana had at first proposed to make notes, in order to write an outline of the principles of the engine. But his own laborious pursuits induced him to give up this plan, and to transfer the task to a younger friend of his, M. Menabrea, who had already established his reputation as a profound analyst.</p>
@@ -283,47 +285,49 @@
 			<p>I then inquired whether the solution of a numerical equation of any degree by the usual, but very tedious proceeding of approximation would be a type of the difficulty to be explained. He at once admitted that it would be a very eminent one.</p>
 			<p>For the sake of perspicuity and brevity I shall confine my present explanation to possible roots.</p>
 			<p>I then mentioned the successive stages:⁠—</p>
-			<ul>
-				<li class="li0">
-					<p class="padtopc" id="pp131">Number of<br/>Operation<br/>Cards used.</p>
-					<p class="phanga">1 <i>a.</i> Ascertain the number of possible roots by applying Sturm’s theorem to the coefficients.</p>
+			<p>
+				<small>Number of Operation Cards used.</small>
+			</p>
+			<ol>
+				<li>
+					<p><i>a.</i> Ascertain the number of possible roots by applying Sturm’s theorem to the coefficients.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">2 <i>b.</i> Find a number greater than the greatest root.</p>
+				<li>
+					<p><i>b.</i> Find a number greater than the greatest root.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">3 <i>c.</i> Substitute the powers of ten (commencing with that next greater than the greatest root, and diminishing the powers by unity at each step) for the value of <i>x</i> in the given equation.</p>
-					<p class="pina">Continue this until the sign of the resulting number changes from positive to negative.</p>
-					<p class="pina">The index of the last power of ten (call it <i>n</i>), which is positive, expresses the number of digits in that part of the root which consists of whole numbers. Call this index <i>n</i> + 1.</p>
+				<li>
+					<p><i>c.</i> Substitute the powers of ten (commencing with that next greater than the greatest root, and diminishing the powers by unity at each step) for the value of <var>x</var> in the given equation.</p>
+					<p>Continue this until the sign of the resulting number changes from positive to negative.</p>
+					<p>The index of the last power of ten (call it <var>n</var>), which is positive, expresses the number of digits in that part of the root which consists of whole numbers. Call this index <var>n</var> + 1.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">4 <i>d.</i> Substitute successively for <i>x</i> in the original equation 0 × 10<sup>n</sup>, 1 × 10<sup>n</sup>, 2 × 10<sup>n</sup>, 3 × 10<sup>n</sup>, … 9 × 10<sup>n</sup>, until a change of sign occurs in the result. The digit previously substituted will be the first figure of the root sought.</p>
+				<li>
+					<p><i>d.</i> Substitute successively for <var>x</var> in the original equation 0 × 10<sup>n</sup>, 1 × 10<sup>n</sup>, 2 × 10<sup>n</sup>, 3 × 10<sup>n</sup>, … 9 × 10<sup>n</sup>, until a change of sign occurs in the result. The digit previously substituted will be the first figure of the root sought.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">5 <i>e.</i> Transform the original equation into another whose roots are less by the number thus found.</p>
-					<p class="pina">The transformed equation will have a real root, the digit, less than 10<sup>n</sup>.</p>
+				<li>
+					<p><i>e.</i> Transform the original equation into another whose roots are less by the number thus found.</p>
+					<p>The transformed equation will have a real root, the digit, less than 10<sup>n</sup>.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">6 <i>f.</i> Substitute 1 × 10<sup>n−1</sup>, 2 × 10<sup>n−1</sup>, 3 × 10<sup>n−1</sup>, &amp;c., successively for the root of this equation, until a change of sign occurs in the result, as in process 4.</p>
-					<p class="pina">This will give the second figure of the root.</p>
-					<p class="pina">This process of alternately finding a new figure in the root, and then transforming the equation into another (as in process 4 and 5), must be carried on until as many figures as are required, whether whole numbers or decimals, are arrived at.</p>
+				<li>
+					<p><i>f.</i> Substitute 1 × 10<sup>n−1</sup>, 2 × 10<sup>n−1</sup>, 3 × 10<sup>n−1</sup>, &amp;c., successively for the root of this equation, until a change of sign occurs in the result, as in process 4.</p>
+					<p>This will give the second figure of the root.</p>
+					<p>This process of alternately finding a new figure in the root, and then transforming the equation into another (as in process 4 and 5), must be carried on until as many figures as are required, whether whole numbers or decimals, are arrived at.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">7 <i>g.</i> The root thus found must now be used to reduce the original equation to one dimension lower.</p>
+				<li>
+					<p><i>g.</i> The root thus found must now be used to reduce the original equation to one dimension lower.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">8 <i>h.</i> This new equation of one dimension lower must now be treated by sections 3, 4, 5, 6, and 7, until the new root is found.</p>
+				<li>
+					<p><i>h.</i> This new equation of one dimension lower must now be treated by sections 3, 4, 5, 6, and 7, until the new root is found.</p>
 				</li>
-				<li class="li0">
-					<p class="phanga">9 <i>i.</i> The repetition of sections 7 and 8 must go on until all the roots have been found.</p>
+				<li>
+					<p><i>i.</i> The repetition of sections 7 and 8 must go on until all the roots have been found.</p>
 				</li>
-			</ul>
-			<p class="padtopc">Now it will be observed that Professor Mosotti was quite ready to admit at once that each of these different processes could be performed by the Analytical Machine through the medium of properly-arranged sets of Jacquard cards.</p>
+			</ol>
+			<p>Now it will be observed that Professor Mosotti was quite ready to admit at once that each of these different processes could be performed by the Analytical Machine through the medium of properly-arranged sets of Jacquard cards.</p>
 			<p>His real difficulty consisted in teaching the engine to know when to change from one set of cards to another, and back again repeatedly, at intervals not known to the person who gave the orders.</p>
 			<p>The dimensions of the algebraic equation being known, the number of arithmetical processes necessary for Sturm’s theorem is consequently known. A set of operation cards can therefore be prepared. These must be accompanied by a corresponding set of variable cards, which will represent the columns in the store, on which the several coefficients of the given equation, and the various combinations required amongst them, are to be placed.</p>
 			<p>The next stage is to find a number greater than the greatest root of the given equation. There are various courses for arriving at such a number. Any one of these being selected, another set of operation and variable cards can be prepared to execute this operation.</p>
 			<p>Now, as this second process invariably follows the first, the second set of cards may be attached to the first set, and the engine will pass on from the first to the second process, and again from the second to the third process.</p>
-			<p>But here a difficulty arises: successive powers of ten are to be substituted for <i>x</i> in the equation, until a certain event happens. A set of cards may be provided to make the substitution of the highest power of ten, and similarly for the others; but on the occurrence of a certain event, namely, the change of a sign from + to −, this stage of the calculation is to terminate.</p>
+			<p>But here a difficulty arises: successive powers of ten are to be substituted for <var>x</var> in the equation, until a certain event happens. A set of cards may be provided to make the substitution of the highest power of ten, and similarly for the others; but on the occurrence of a certain event, namely, the change of a sign from + to −, this stage of the calculation is to terminate.</p>
 			<p>Now at a very early period of the inquiry I had found it necessary to teach the engine to know when any numbers it might be computing passed through zero or infinity.</p>
 			<p>The passage through zero can be easily ascertained, thus: Let the continually-decreasing number which is being computed be placed upon a column of wheels in connection with a carrying apparatus. After each process this number will be diminished, until at last a number is subtracted from it which is greater than the number expressed on those wheels.</p>
 			<table>
