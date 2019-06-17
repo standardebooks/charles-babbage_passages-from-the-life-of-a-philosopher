@@ -262,6 +262,42 @@ p span.i1{
 	}
 }
 
+/* punchcard in chapter 8 */
+
+.punchcard{
+	border: 1px solid;
+}
+
+.punchcard th{
+	border-bottom: 1px solid;
+}
+
+.punchcard>thead th{
+	padding-top: 1em;
+	font-variant: small-caps;
+}
+
+.punchcard th:first-child,
+.punchcard td:first-child{
+	padding-left: 1em;
+}
+
+.punchcard th:last-child,
+.punchcard td:last-child{
+	padding-right: 1em;
+}
+
+.punchcard>tbody>tr:last-child>td{
+	padding-bottom: 1em;
+}
+
+.punchcard>thead th:first-child,
+.punchcard th:nth-child(4),
+.punchcard td:nth-child(4){
+	padding-right: 5em;
+}
+
+
 /* tic-tac-to boards in chapter 34 */
 
 .tic-tac-to{
