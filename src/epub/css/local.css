@@ -79,8 +79,10 @@ span[epub|type~="subtitle"]{
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] i{
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
 	font-style: normal;
+	font-variant: small-caps;
 }
 /* End all epigraphs */
 
