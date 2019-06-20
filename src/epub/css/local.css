@@ -144,10 +144,6 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -240,32 +236,34 @@ p span.i1{
 }
 
 /* number sequences in chapter 5 */
-
 .sequence{
 	list-style: none;
 	text-align: center;
 	margin: 1em auto;
 	padding: 0;
 }
+
 .sequence>li{
 	display: inline;
 	margin: 0 1em;
 }
+
 .sequence p{
 	display: inline;
 }
+
 @supports(display: flex){
 	.sequence{
 		display: flex;
 		justify-content: space-evenly;
 	}
+
 	.sequence>li{
 		margin: 0;
 	}
 }
 
 /* punchcard in chapter 8 */
-
 .punchcard{
 	border: 1px solid;
 }
@@ -299,9 +297,7 @@ p span.i1{
 	padding-right: 5em;
 }
 
-
 /* tic-tac-to boards in chapter 34 */
-
 .tic-tac-to{
 	text-align: center;
 	margin: 0;
