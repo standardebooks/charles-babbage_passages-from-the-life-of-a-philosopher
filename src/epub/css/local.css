@@ -235,6 +235,11 @@ p span.i1{
 	text-align: center;
 }
 
+/* ordered lists presented without markers in the source scans */
+.without-marker{
+	list-style-type: none;
+}
+
 /* number sequences in chapter 5 */
 .sequence{
 	list-style: none;
