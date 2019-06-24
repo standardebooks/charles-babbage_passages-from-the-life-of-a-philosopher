@@ -28,10 +28,19 @@ figure{
 	text-align: center;
 }
 
+figcaption{
+	font-style: italic;
+}
+
 figure img{
 	display: block;
 	margin: auto;
 	max-width: 100%;
+}
+
+figure ul{
+	list-style-type: lower-alpha;
+	text-align: left;
 }
 
 figure + p{
@@ -235,7 +244,7 @@ p span.i1{
 	text-align: center;
 }
 
-/* ordered lists presented without markers in the source scans */
+/* lists presented without markers in the source scans */
 .without-marker{
 	list-style-type: none;
 }
