@@ -302,6 +302,17 @@ p span.i1{
 	padding-right: 5em;
 }
 
+/* homophones in chapter 27 */
+.homophones span{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.homophones span>span{
+	display: block;
+	padding: 0 .1em;
+}
+
 /* tic-tac-to boards in chapter 34 */
 .tic-tac-to{
 	text-align: center;
