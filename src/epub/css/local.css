@@ -302,6 +302,24 @@ p span.i1{
 	padding-right: 5em;
 }
 
+/* lists of instruments in chapter 26 */
+#chapter-26 figure>ul{
+	columns: 2;
+	column-rule: solid 1px;
+	column-gap: 2em;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#chapter-26 figure ul ul{
+	list-style-type: disc;
+}
+
+#chapter-26 figure ~ figure li:last-child{
+	margin-top: 1em;
+}
+
 /* homophones in chapter 27 */
 .homophones span{
 	vertical-align: middle;
