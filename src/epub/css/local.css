@@ -122,8 +122,16 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
+
+	section[epub|type~="epigraph"] > blockquote + blockquote{
+		margin-top: 3em;
+	}
 }
 /* End full-page epigraphs */
+
+[epub|type~="dedication"] > header > p{
+	font-variant: small-caps;
+}
 
 [epub|type~="bridgehead"]{
 	display: inline-block;
