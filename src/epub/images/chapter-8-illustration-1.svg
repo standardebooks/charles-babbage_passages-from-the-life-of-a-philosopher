@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 200 30">
+	<title>Four cards in a row with four spaces for holes to punched, labelled +, −, × and ÷. The first card has every hole but the fourth unpunched, the second all but the third, the third all but the second, and the fourth all but the first.</title>
 	<text font-size="10">
 		<tspan x="18" y="8">+</tspan>
 		<tspan x="72" y="8">−</tspan>

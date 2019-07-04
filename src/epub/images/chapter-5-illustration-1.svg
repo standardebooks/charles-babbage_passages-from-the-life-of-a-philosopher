@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 200 5">
+	<title>Five black circles in a row.</title>
 	<circle cx="30" cy="2.5" r="2.5"/>
 	<circle cx="65" cy="2.5" r="2.5"/>
 	<circle cx="100" cy="2.5" r="2.5"/>

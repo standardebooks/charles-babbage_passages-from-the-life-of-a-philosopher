@@ -314,8 +314,8 @@ p span.i1{
 }
 
 .punchcard>thead th:first-child,
-.punchcard th:nth-child(4),
-.punchcard td:nth-child(4){
+.punchcard th:first-child + th + th + th,
+.punchcard td:first-child + td + td + td{
 	padding-right: 5em;
 }
 

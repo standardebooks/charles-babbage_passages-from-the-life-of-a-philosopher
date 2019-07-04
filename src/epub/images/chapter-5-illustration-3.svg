@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 200 20">
+	<title>Five pyramids of black circles, starting with a single circle and each successive pyramid growing by one row.</title>
 	<circle cx="30" cy="2" r="2"/>
 	<circle cx="62.75" cy="6" r="2"/>
 	<circle cx="65" cy="2" r="2"/>
