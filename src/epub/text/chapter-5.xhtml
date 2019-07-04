@@ -590,67 +590,112 @@
 				<p>But it may fairly be expected, and it is indeed of great importance that calculations made by machinery should not merely be exact, but that they should be done in a much shorter time than those performed by the human mind. Suppose there were no tens to carry, as in the first of the two cases; then, if we possessed mechanism capable of adding any one digit to any other in the units’ place of figures, a similar mechanism might be placed above it to add the tens’ figures, and so on for as many figures as might be required.</p>
 				<p>But in this case, since there are no carriages, each digit might be added to its corresponding digit at the same time. Thus, the time of adding by means of mechanism, any two numbers, however many figures they might consist of, would not exceed that of adding a single digit to another digit. If this could be accomplished it would render additions and subtractions with numbers having ten, twenty, fifty, or any number of figures, as rapid as those operations are with single figures.</p>
 				<p>Let us now examine the case in which there were several carriages. Its successive stages may be better explained, thus⁠—</p>
-				<table>
+				<table class="carry">
 					<thead>
 						<tr>
 							<th scope="col">Stages.</th>
-							<th scope="col" title="calculation"/>
+							<th scope="col" colspan="4" title="calculation"/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<th scope="row"/>
-							<td class="numeral">2648</td>
+							<td class="numeral">2</td>
+							<td class="numeral">6</td>
+							<td class="numeral">4</td>
+							<td class="numeral">8</td>
 						</tr>
 						<tr>
 							<th scope="row"/>
-							<td class="numeral">4584</td>
+							<td class="numeral">4</td>
+							<td class="numeral">5</td>
+							<td class="numeral">8</td>
+							<td class="numeral">4</td>
 						</tr>
 						<tr>
 							<th scope="row">1 Add units’ figure = 4</th>
-							<td class="numeral result">2642</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">6</td>
+							<td class="numeral result">4</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">2 Carry</th>
-							<td class="numeral">  1 </td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">2652</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">6</td>
+							<td class="numeral result">5</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">3 Add tens’ figure = 8</th>
-							<td class="numeral">  8 </td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral">8</td>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">2632</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">6</td>
+							<td class="numeral result">3</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">4 Carry</th>
-							<td class="numeral"> 1  </td>
+							<td class="numeral"/>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">2732</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">7</td>
+							<td class="numeral result">3</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">5 Add hundreds’ figure = 5</th>
-							<td class="numeral"> 5  </td>
+							<td class="numeral"/>
+							<td class="numeral">5</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">2232</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">3</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">6 Carry</th>
-							<td class="numeral">1   </td>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">3232</td>
+							<td class="numeral result">3</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">3</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">7 Add thousands’ figure = 4</th>
-							<td class="numeral">4   </td>
+							<td class="numeral">4</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">7232</td>
+							<td class="numeral result">7</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">3</td>
+							<td class="numeral result">2</td>
 						</tr>
 						<tr>
 							<th colspan="2" scope="row">8 Carry 0. There is no carr.</th>
@@ -658,86 +703,149 @@
 					</tbody>
 				</table>
 				<p>Now if, as in this case, all the carriages were known, it would then be possible to make all the additions of digits at the same time, provided we could also record each carriage as it became due. We might then complete the addition by adding, at the same instant, each carriage in its proper place. The process would then stand thus:⁠—</p>
-				<table>
-					<tr>
-						<th scope="col">Stages</th>
-						<th scope="col" title="calculation"/>
-						<th scope="col" title="comment"/>
-					</tr>
-					<tr>
-						<th/>
-						<td>2648</td>
-						<td/>
-					</tr>
-					<tr>
-						<th scope="row"/>
-						<td>4564</td>
-						<td/>
-					</tr>
-					<tr>
-						<th rowspan="2" scope="row">1</th>
-						<td class="result">6102</td>
-						<td>Add each digit to the digit above.</td>
-					</tr>
-					<tr>
-						<td>111</td>
-						<td>Record the carriages.</td>
-					</tr>
-					<tr>
-						<th scope="row">2</th>
-						<td class="result">7212</td>
-						<td>Add the above carriages.</td>
-					</tr>
-				</table>
-				<p>Now, whatever mechanism is contrived for adding any one digit to any other must, of course, be able to add the largest digit, nine, to that other digit. Supposing, therefore, one unit of number to be passed over in one second of time, it is evident that any number of pairs of digits may be added together in nine seconds, and that, when all the consequent carriages are known, as in the above case, it will cost one second more to make those carriages. Thus, addition and carriage would be completed in ten seconds, even though the numbers consisted each of a hundred figures.</p>
-				<p>But, unfortunately, there are multitudes of cases in which the carriages that become due are only known in successive periods of time. As an example, add together the two following numbers:⁠—</p>
-				<table>
+				<table class="carry">
 					<thead>
 						<tr>
 							<th scope="col">Stages</th>
-							<th scope="col"/>
+							<th scope="col" colspan="4" title="calculation"/>
+							<th scope="col" title="comment"/>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th/>
+							<td class="numeral">2</td>
+							<td class="numeral">6</td>
+							<td class="numeral">4</td>
+							<td class="numeral">8</td>
+							<td/>
+						</tr>
+						<tr>
+							<th scope="row"/>
+							<td class="numeral">4</td>
+							<td class="numeral">5</td>
+							<td class="numeral">6</td>
+							<td class="numeral">4</td>
+							<td/>
+						</tr>
+						<tr>
+							<th rowspan="2" scope="row">1</th>
+							<td class="numeral result">6</td>
+							<td class="numeral result">1</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">2</td>
+							<td>Add each digit to the digit above.</td>
+						</tr>
+						<tr>
+							<td class="numeral">1</td>
+							<td class="numeral">1</td>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
+							<td>Record the carriages.</td>
+						</tr>
+						<tr>
+							<th scope="row">2</th>
+							<td class="numeral result">7</td>
+							<td class="numeral result">2</td>
+							<td class="numeral result">1</td>
+							<td class="numeral result">2</td>
+							<td>Add the above carriages.</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>Now, whatever mechanism is contrived for adding any one digit to any other must, of course, be able to add the largest digit, nine, to that other digit. Supposing, therefore, one unit of number to be passed over in one second of time, it is evident that any number of pairs of digits may be added together in nine seconds, and that, when all the consequent carriages are known, as in the above case, it will cost one second more to make those carriages. Thus, addition and carriage would be completed in ten seconds, even though the numbers consisted each of a hundred figures.</p>
+				<p>But, unfortunately, there are multitudes of cases in which the carriages that become due are only known in successive periods of time. As an example, add together the two following numbers:⁠—</p>
+				<table class="carry">
+					<thead>
+						<tr>
+							<th scope="col">Stages</th>
+							<th scope="col" colspan="5"/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<th scope="row"/>
-							<td class="numeral"> 8473</td>
+							<td class="numeral"/>
+							<td class="numeral">8</td>
+							<td class="numeral">4</td>
+							<td class="numeral">7</td>
+							<td class="numeral">3</td>
 						</tr>
 						<tr>
 							<th scope="row"/>
-							<td class="numeral"> 1528</td>
+							<td class="numeral"/>
+							<td class="numeral">1</td>
+							<td class="numeral">5</td>
+							<td class="numeral">2</td>
+							<td class="numeral">8</td>
 						</tr>
 						<tr>
 							<th scope="row">1 Add all the digits</th>
-							<td class="numeral result"> 9991</td>
+							<td class="numeral result"/>
+							<td class="numeral result">9</td>
+							<td class="numeral result">9</td>
+							<td class="numeral result">9</td>
+							<td class="numeral result">1</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">2 Carry on tens and warn next car.</th>
-							<td class="numeral">   1 </td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result"> 9901</td>
+							<td class="numeral result"/>
+							<td class="numeral result">9</td>
+							<td class="numeral result">9</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">1</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">3 Carry on hundreds, and ditto</th>
-							<td class="numeral">  1  </td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result"> 9001</td>
+							<td class="numeral result"/>
+							<td class="numeral result">9</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">1</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">4 Carry on thousands, and ditto</th>
-							<td class="numeral"> 1   </td>
+							<td class="numeral"/>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">00001</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">1</td>
 						</tr>
 						<tr>
 							<th rowspan="2" scope="row">5 Carry on ten thousands</th>
-							<td class="numeral">1    </td>
+							<td class="numeral">1</td>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral"/>
+							<td class="numeral"/>
 						</tr>
 						<tr>
-							<td class="numeral result">10001</td>
+							<td class="numeral result">1</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">0</td>
+							<td class="numeral result">1</td>
 						</tr>
 					</tbody>
 				</table>
