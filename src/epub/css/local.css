@@ -28,6 +28,15 @@ figure{
 	text-align: center;
 }
 
+figure.full-page{
+	margin: 0;
+	max-height: 100%;
+	page-break-before: always;
+	page-break-after: always;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
 figcaption{
 	font-style: italic;
 }
