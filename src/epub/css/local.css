@@ -59,6 +59,7 @@ figure + p{
 table{
 	border-collapse: collapse;
 	margin: 1em auto;
+	page-break-inside: avoid;
 }
 
 caption{
@@ -70,12 +71,13 @@ td{
 	padding: .25em .5em;
 	font-weight: normal;
 	text-align: left;
-	vertical-align: top;
+	vertical-align: bottom;
 }
 
 thead th{
 	text-align: center;
 	font-size: .75em;
+	vertical-align: top;
 }
 
 td.numeral{
