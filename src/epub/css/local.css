@@ -340,6 +340,12 @@ p span.i1{
 	padding-right: 5em;
 }
 
+/* stages in chapter 8 */
+.stages td:first-child{
+	text-align: right;
+	vertical-align: top;
+}
+
 /* lists of instruments in chapter 26 */
 #chapter-26 figure>ul{
 	columns: 2;
