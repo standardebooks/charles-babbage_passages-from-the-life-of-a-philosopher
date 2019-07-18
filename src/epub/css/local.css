@@ -9,11 +9,6 @@ abbr.time{
 	font-variant: small-caps;
 }
 
-small,
-var{
-	font-style: italic;
-}
-
 blockquote header{
 	margin-bottom: 1em;
 }
