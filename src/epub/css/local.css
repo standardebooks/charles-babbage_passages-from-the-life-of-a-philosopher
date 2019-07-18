@@ -152,6 +152,14 @@ section[epub|type~="epigraph"] > *{
 	font-style: normal;
 }
 
+[epub|type~="epigraph"] + [epub|type~="bridgehead"]::before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	margin: auto auto 1em;
+	width: 25%;
+}
+
 [epub|type~="se:letter.dateline"]{
 	text-align: right;
 	font-style: italic;
