@@ -36,15 +36,16 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Autobiography</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONG_DESCRIPTION
-		]]></meta>
+		<dc:description id="description">The eminent Victorian scientist and mathematician on his inventions, dreams and adventures.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;Charles Babbage was a Victorian polymath, and someone with a seemingly never-ending intellectual curiosity about the world around him. A mathematician by training, he also wrote copiously on subjects such as economics, physics, engineering, computation, cryptography, religion and education, along with conducting practical experiments with pretty much anything that had grabbed his interest at the time. Today, he’s widely viewed to be the father of the computer with his Difference and Analytical Engines. Although neither were fully completed during his lifetime, a working replica of the Difference Engine was built in the 1990s, and an Analytical Engine is currently in the planning stages.&lt;/p&gt;
+			&lt;p&gt;This autobiography (first published near the end of his life in 1864) veers from topic to topic and rarely settles on any subject for more than a chapter. Apart from his early life and an explanation of the thinking behind his computing Engines, Babbage also transcribes his memories of climbing into an active volcano, arguing with street musicians, picking locks, standing in elections, and imagining life as a cheese mite, among other diverse subjects. The original meaning of the titular word “Philosopher” is “lover of wisdom,” and this book shows Babbage to be just that.&lt;/p&gt;
+		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57532</dc:source>
 		<dc:source>https://archive.org/details/passagesfromlife00babb</dc:source>
 		<dc:source>https://archive.org/details/TO00961792_TO0324_62184_000000</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">All the SVGs have been recreated apart from the scanned frontispiece and occluding light in chapter 34. The frontispiece in the original scan was of a low quality, but I found a different scan with better quality that I’d referenced about (the second source) that I exclusively used for that image. Usually we omit things like the frontispiece and list of papers, but they are here referred to in the text. MathML in places, but the renderer in tools copes well. There’s some more advanced styling, but this has been wrapped in @supports blocks. Excessive italics is just copying the original: where words were in MW they’ve been removed.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-babbage_passages-from-the-life-of-a-philosopher</meta>
