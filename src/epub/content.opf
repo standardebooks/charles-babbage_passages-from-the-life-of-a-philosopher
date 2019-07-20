@@ -82,13 +82,13 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="images/chapter-5-illustration-1.svg" id="chapter-5-illustration-1.svg" media-type="image/svg+xml"/>
-		<item href="images/chapter-5-illustration-2.svg" id="chapter-5-illustration-2.svg" media-type="image/svg+xml"/>
-		<item href="images/chapter-5-illustration-3.svg" id="chapter-5-illustration-3.svg" media-type="image/svg+xml"/>
-		<item href="images/chapter-8-illustration-1.svg" id="chapter-8-illustration-1.svg" media-type="image/svg+xml"/>
-		<item href="images/chapter-34-illustration-1.svg" id="chapter-34-illustration-1.svg" media-type="image/svg+xml"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/frontispiece.svg" id="frontispiece.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-1.svg" id="illustration-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-2.svg" id="illustration-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-3.svg" id="illustration-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-4.svg" id="illustration-4.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-5.svg" id="illustration-5.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/appendix.xhtml" id="appendix.xhtml" media-type="application/xhtml+xml"/>
