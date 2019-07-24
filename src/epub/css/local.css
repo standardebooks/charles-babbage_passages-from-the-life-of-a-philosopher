@@ -1,10 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.currency{
-	font-style: italic;
-}
-
 blockquote header{
 	margin-bottom: 1em;
 }
