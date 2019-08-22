@@ -25,7 +25,9 @@ figure.full-page{
 }
 
 figcaption{
+	font-size: .75em;
 	font-style: italic;
+	margin: 1em;
 }
 
 figure img{
