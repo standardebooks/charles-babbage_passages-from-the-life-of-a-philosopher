@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>s-010</code>
+			<reason>These empty elements are required by the MathML spec.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
