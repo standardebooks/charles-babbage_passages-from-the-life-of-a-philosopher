@@ -361,6 +361,18 @@ figure > table td:first-child + td + td + td{
 	padding-right: 5em;
 }
 
+/* card in chapter 8 */
+#chapter-8 > figure:first-of-type th:first-child,
+#chapter-8 > figure:first-of-type td:first-child{
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+#chapter-8 > figure:first-of-type tr + tr > th{
+	font-size: 1em;
+	padding-top: .25em;
+}
+
 /* stages in chapter 8 */
 #chapter-8 > table:first-of-type td:first-child{
 	text-align: right;
