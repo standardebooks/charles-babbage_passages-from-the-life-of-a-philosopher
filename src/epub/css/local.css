@@ -363,7 +363,7 @@ figure > table td:first-child + td + td + td{
 
 /* card in chapter 8 */
 #chapter-8 > figure:first-of-type thead tr:first-of-type th:first-of-type{
-	padding-right:  5em;
+	padding-right: 5em;
 }
 
 #chapter-8 > figure:first-of-type th:first-child,
