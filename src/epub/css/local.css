@@ -18,9 +18,9 @@ figure{
 figure.full-page{
 	margin: 0;
 	max-height: 100%;
-	page-break-before: always;
-	page-break-after: always;
-	page-break-inside: avoid;
+	break-before: page;
+	break-after: page;
+	break-inside: avoid;
 	text-align: center;
 }
 
@@ -48,7 +48,7 @@ figure + p{
 table{
 	border-collapse: collapse;
 	margin: 1em auto;
-	page-break-inside: avoid;
+	break-inside: avoid;
 }
 
 caption{
@@ -87,6 +87,7 @@ span[epub|type~="subtitle"]{
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 [epub|type~="epigraph"] cite{
@@ -247,6 +248,7 @@ p span.i1{
 
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
+	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
 }
@@ -391,7 +393,7 @@ figure > table td:first-child + td + td + td{
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
-	page-break-inside: avoid;
+	break-inside: avoid;
 }
 
 #chapter-26 figure ~ figure li:last-child{
