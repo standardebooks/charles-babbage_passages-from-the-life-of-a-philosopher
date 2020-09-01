@@ -277,9 +277,10 @@ p span.i1{
 	text-align: left;
 }
 
-[epub|type~="z3998:drama"] footer b{
+[epub|type~="z3998:drama"] footer p:first-child{
 	display: block;
 	text-align: center;
+	margin: 3em;
 }
 
 section[epub|type~="z3998:scene"] > p{
