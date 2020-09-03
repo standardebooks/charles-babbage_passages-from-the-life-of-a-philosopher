@@ -78,11 +78,6 @@ td.result{
 	border-top: 1px solid;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
