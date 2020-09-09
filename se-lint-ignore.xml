@@ -6,4 +6,10 @@
 			<reason>These empty elements are required by the MathML spec.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-34.xhtml">
+		<ignore>
+			<code>s-066</code>
+			<reason>Title is incorrectly matched as a label + ordinal.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
