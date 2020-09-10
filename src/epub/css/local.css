@@ -174,7 +174,7 @@ section > header [epub|type~="epigraph"] + *{
 	font-style: italic;
 }
 
-.signature,
+[epub:type~="z3998:signature"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
