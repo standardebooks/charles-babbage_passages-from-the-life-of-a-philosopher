@@ -278,6 +278,10 @@ p span.i1{
 	margin: 3em;
 }
 
+[epub|type~="z3998:drama"] footer p{
+	text-indent: 0;
+}
+
 section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
 	width: 75%;
