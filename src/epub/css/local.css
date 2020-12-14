@@ -400,6 +400,10 @@ figure > table td:first-child + td + td + td{
 	margin-top: 1em;
 }
 
+#chapter-26 blockquote:nth-of-type(2) header p{
+	text-indent: 0;
+}
+
 /* homophones in chapter 27 */
 #chapter-27 blockquote:first-of-type span{
 	vertical-align: middle;
