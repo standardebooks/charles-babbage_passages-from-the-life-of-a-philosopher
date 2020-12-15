@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-27.xhtml">
+		<ignore>
+			<code>c-013</code>
+			<reason>This case calls for very small margins for legibility.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
