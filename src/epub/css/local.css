@@ -38,7 +38,7 @@ figure img{
 
 figure ul{
 	list-style-type: lower-alpha;
-	text-align: left;
+	text-align: initial;
 }
 
 figure + p{
@@ -59,7 +59,7 @@ th,
 td{
 	padding: .25em .5em;
 	font-weight: normal;
-	text-align: left;
+	text-align: initial;
 	vertical-align: bottom;
 }
 
@@ -102,7 +102,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){
@@ -131,7 +131,7 @@ section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 section > header [epub|type~="epigraph"] + *{
@@ -185,7 +185,7 @@ section > header [epub|type~="epigraph"] + *{
 
 /* Verse */
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -273,7 +273,7 @@ p span.i1{
 }
 
 [epub|type~="z3998:drama"] footer{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:drama"] footer p:first-child{
