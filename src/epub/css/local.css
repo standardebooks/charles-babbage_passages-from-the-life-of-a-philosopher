@@ -179,6 +179,10 @@ section > header [epub|type~="epigraph"] + *{
 	font-variant: small-caps;
 }
 
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
 /* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: left;
