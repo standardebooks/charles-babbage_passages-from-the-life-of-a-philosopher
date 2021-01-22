@@ -41,10 +41,6 @@ figure ul{
 	text-align: initial;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 table{
 	border-collapse: collapse;
 	margin: 1em auto;
