@@ -215,9 +215,9 @@ p span.i1{
 }
 
 [epub|type~="z3998:drama"] table{
+	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
-	border-collapse: collapse;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
