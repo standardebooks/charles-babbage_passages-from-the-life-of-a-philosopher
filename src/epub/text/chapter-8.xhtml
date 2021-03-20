@@ -276,13 +276,17 @@
 			<p>It is impossible to construct machinery occupying unlimited space; but it is possible to construct finite machinery, and to use it through unlimited time. It is this substitution of the <em>infinity of time</em> for the <em>infinity of space</em> which I have made use of, to limit the size of the engine and yet to retain its unlimited power.</p>
 			<p>(<i>a</i>). I shall now proceed briefly to point out the means by which I have effected this change.</p>
 			<p>Since every calculating machine must be constructed for the calculation of a definite number of figures, the first datum must be to fix upon that number. In order to be somewhat in advance of the greatest number that may ever be required, I chose fifty places of figures as the standard for the Analytical Engine. The intention being that in such a machine two numbers, each of fifty places of figures, might be multiplied together and the resultant product of one hundred places might then be divided by another number of fifty places. It seems to me probable that a long period must elapse before the demands of science will exceed this limit. To this it may be added that the addition and subtraction of numbers in an engine constructed for <m:math alttext="n"><m:mi>n</m:mi></m:math> places of figures would be equally rapid whether <m:math alttext="n"><m:mi>n</m:mi></m:math> were equal to five or five thousand digits. With respect to multiplication and division, the time required is greater:⁠—</p>
-			<p>Thus if <m:math alttext="a . 10 (super) 50 + b"><m:mi>a</m:mi><m:mo>.</m:mo><m:msup><m:mn>10</m:mn><m:mn>50</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi></m:math> and <m:math alttext="a′ . 10 (super) 50 + b′"><m:mi>a</m:mi><m:mo>′</m:mo><m:mo>.</m:mo><m:msup><m:mn>10</m:mn><m:mn>50</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>′</m:mo></m:math> are two numbers each of less than a hundred places of figures, then each can be expressed upon two columns of fifty figures, and <m:math alttext="a"><m:mi>a</m:mi></m:math>, <m:math alttext="b"><m:mi>b</m:mi></m:math>, <m:math alttext="a′"><m:mi>a</m:mi><m:mo>′</m:mo></m:math>, <m:math alttext="b′"><m:mi>b</m:mi><m:mo>′</m:mo></m:math> are each less than fifty places of figures: they can therefore be added and subtracted upon any column holding fifty places of figures.</p>
+			<p>Thus if <m:math alttext="a ⋅ 10 ^ 50 + b"><m:mi>a</m:mi><m:mo>⋅</m:mo><m:msup><m:mn>10</m:mn><m:mn>50</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi></m:math> and <m:math alttext="a′ ⋅ 10 ^ 50 + b′"><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo>⋅</m:mo><m:msup><m:mn>10</m:mn><m:mn>50</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mo>′</m:mo></m:msup></m:math> are two numbers each of less than a hundred places of figures, then each can be expressed upon two columns of fifty figures, and <m:math alttext="a"><m:mi>a</m:mi></m:math>, <m:math alttext="b"><m:mi>b</m:mi></m:math>, <m:math alttext="a′"><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:math>, <m:math alttext="b′"><m:msup><m:mi>b</m:mi><m:mo>′</m:mo></m:msup></m:math> are each less than fifty places of figures: they can therefore be added and subtracted upon any column holding fifty places of figures.</p>
 			<p>The product of two such numbers is⁠—</p>
 			<figure>
-				<m:math alttext="a a′ 10 (super) 100 + (a b′ + a′ b) 10 (super) 50 + b b′.">
+				<m:math alttext="a × a′ × 10 ^ 100 + (a × b′ + a′ × b) × 10 ^ 50 + b × b′.">
 					<m:mi>a</m:mi>
-					<m:mi>a</m:mi>
-					<m:mo>′</m:mo>
+					<m:mo>⁢</m:mo>
+					<m:msup>
+						<m:mi>a</m:mi>
+						<m:mo>′</m:mo>
+					</m:msup>
+					<m:mo>⁢</m:mo>
 					<m:msup>
 						<m:mn>10</m:mn>
 						<m:mn>100</m:mn>
@@ -290,27 +294,37 @@
 					<m:mo>+</m:mo>
 					<m:mo>(</m:mo>
 					<m:mi>a</m:mi>
-					<m:mi>b</m:mi>
-					<m:mo>′</m:mo>
+					<m:mo>⁢</m:mo>
+					<m:msup>
+						<m:mi>b</m:mi>
+						<m:mo>′</m:mo>
+					</m:msup>
 					<m:mo>+</m:mo>
-					<m:mi>a</m:mi>
-					<m:mo>′</m:mo>
+					<m:msup>
+						<m:mi>a</m:mi>
+						<m:mo>′</m:mo>
+					</m:msup>
+					<m:mo>⁢</m:mo>
 					<m:mi>b</m:mi>
 					<m:mo>)</m:mo>
+					<m:mo>⁢</m:mo>
 					<m:msup>
 						<m:mn>10</m:mn>
 						<m:mn>50</m:mn>
 					</m:msup>
 					<m:mo>+</m:mo>
 					<m:mi>b</m:mi>
-					<m:mi>b</m:mi>
-					<m:mo>′</m:mo>
+					<m:mo>⁢</m:mo>
+					<m:msup>
+						<m:mi>b</m:mi>
+						<m:mo>′</m:mo>
+					</m:msup>
 				</m:math>
 			</figure>
-			<p>This expression contains four pair of factors, <m:math alttext="a a′"><m:mi>a</m:mi><m:mi>a</m:mi><m:mo>′</m:mo></m:math>, <m:math alttext="a b′"><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>′</m:mo></m:math>, <m:math alttext="a′ b"><m:mi>a</m:mi><m:mo>′</m:mo><m:mi>b</m:mi></m:math>, <m:math alttext="b b′"><m:mi>b</m:mi><m:mi>b</m:mi><m:mo>′</m:mo></m:math>, each factor of which has less than fifty places of figures. Each multiplication can therefore be executed in the Engine. The time, however, of multiplying two numbers, each consisting of any number of digits between fifty and one hundred, will be nearly four times as long as that of two such numbers of less than fifty places of figures.</p>
+			<p>This expression contains four pair of factors, <m:math alttext="a × a′"><m:mi>a</m:mi><m:mo>⁢</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:math>, <m:math alttext="a × b′"><m:mi>a</m:mi><m:mo>⁢</m:mo><m:msup><m:mi>b</m:mi><m:mo>′</m:mo></m:msup></m:math>, <m:math alttext="a′ × b"><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo>⁢</m:mo><m:mi>b</m:mi></m:math>, <m:math alttext="b × b′"><m:mi>b</m:mi><m:mo>⁢</m:mo><m:msup><m:mi>b</m:mi><m:mo>′</m:mo></m:msup></m:math>, each factor of which has less than fifty places of figures. Each multiplication can therefore be executed in the Engine. The time, however, of multiplying two numbers, each consisting of any number of digits between fifty and one hundred, will be nearly four times as long as that of two such numbers of less than fifty places of figures.</p>
 			<p>The same reasoning will show that if the numbers of digits of each factor are between one hundred and one hundred and fifty, then the time required for the operation will be nearly nine times that of a pair of factors having only fifty digits.</p>
 			<p>Thus it appears that whatever may be the number of digits the Analytical Engine is capable of holding, if it is required to make all the computations with <m:math alttext="k"><m:mi>k</m:mi></m:math> times that number of digits, then it can be executed by the same Engine, but in an amount of time equal to <m:math alttext="k²"><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup></m:math> times the former. Hence the condition (<i>a</i>), or the unlimited number of digits contained in each constant employed, is fulfilled.</p>
-			<p>It must, however, be admitted that this advantage is gained at the expense of diminishing the number of the constants the Engine can hold. An engine of fifty digits, when used as one of a hundred digits, can only contain half the number of variables. An engine containing <m:math alttext="m"><m:mi>m</m:mi></m:math> columns, each holding <m:math alttext="n"><m:mi>n</m:mi></m:math> digits, if used for computations requiring <m:math alttext="kn"><m:mi>k</m:mi><m:mi>n</m:mi></m:math> digits, can only hold <m:math alttext="m ÷ k"><m:mfrac><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mfrac></m:math> constants or variables.</p>
+			<p>It must, however, be admitted that this advantage is gained at the expense of diminishing the number of the constants the Engine can hold. An engine of fifty digits, when used as one of a hundred digits, can only contain half the number of variables. An engine containing <m:math alttext="m"><m:mi>m</m:mi></m:math> columns, each holding <m:math alttext="n"><m:mi>n</m:mi></m:math> digits, if used for computations requiring <m:math alttext="k × n"><m:mi>k</m:mi><m:mo>⁢</m:mo><m:mi>n</m:mi></m:math> digits, can only hold <m:math alttext="m ÷ k"><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:math> constants or variables.</p>
 			<p>(<i>b</i>). The next step is therefore to prove (<i>b</i>), <abbr>viz.</abbr>: to show that a finite engine can be used as if it contained an unlimited number of constants. The method of punching cards for tabular numbers has already been alluded to. Each Analytical Engine will contain one or more apparatus for printing any numbers put into it, and also an apparatus for punching on pasteboard cards the holes corresponding to those numbers. At another part of the machine a series of number cards, resembling those of Jacquard, but delivered to and computed by the machine itself, can be placed. These can be called for by the Engine itself in any order in which they may be placed, or according to <em>any law</em> the Engine may be directed to use. Hence the condition (<i>b</i>) is fulfilled, namely: an <em>unlimited number of constants</em> can be inserted in the machine in an <em>unlimited</em> time.</p>
 			<p>I propose in the Engine I am constructing to have places for only a thousand constants, because I think it will be more than sufficient. But if it were required to have ten, or even a hundred times that number, it would be quite possible to make it, such is the simplicity of its structure of that portion of the Engine.</p>
 			<p>(<i>c</i>). The next stage in the arithmetic is the number of times the four processes of addition, subtraction, multiplication, and division can be repeated. It is obvious that four different cards thus punched</p>
@@ -321,7 +335,7 @@
 			<p>Now there is no limit to the number of such cards which may be strung together according to the nature of the operations required. Consequently the condition (<i>c</i>) is fulfilled.</p>
 			<p>(<i>d</i>). The fourth arithmetical condition (<i>d</i>), that the order of succession in which these operations can be varied, is itself <em>unlimited</em>, follows as a matter of course.</p>
 			<p>The four remaining conditions which must be fulfilled, in order to render the Analytical Engine as general as the science of which it is the powerful executive, relate to algebraic quantities with which it operates.</p>
-			<p>The thousand columns, each capable of holding any number of less than fifty-one places of figures, may each represent a constant or a variable quantity. These quantities I have called by the comprehensive title of variables, and have denoted them by <m:math alttext="V (sub) n"><m:msub><m:mi>V</m:mi><m:mi>n</m:mi></m:msub></m:math>, with an index below. In the machine I have designed, <m:math alttext="n"><m:mi>n</m:mi></m:math> may vary from 0 to 999. But after any one or more columns have been used for variables, if those variables are not required afterwards, they may be printed upon paper, and the columns themselves again used for other variables. In such cases the variables must have a new index; thus, <m:math alttext="(super) m V (super) n"><m:mmultiscripts><m:mi>V</m:mi><m:none/><m:mi>n</m:mi><m:mprescripts/><m:none/><m:mi>m</m:mi></m:mmultiscripts></m:math>. I propose to make <m:math alttext="n"><m:mi>n</m:mi></m:math> vary from 0 to 99. If more variables are required, these may be supplied by Variable Cards, which may follow each other in unlimited succession. Each card will cause its symbol to be printed with its proper indices.</p>
+			<p>The thousand columns, each capable of holding any number of less than fifty-one places of figures, may each represent a constant or a variable quantity. These quantities I have called by the comprehensive title of variables, and have denoted them by <m:math alttext="V_n"><m:msub><m:mi>V</m:mi><m:mi>n</m:mi></m:msub></m:math>, with an index below. In the machine I have designed, <m:math alttext="n"><m:mi>n</m:mi></m:math> may vary from 0 to 999. But after any one or more columns have been used for variables, if those variables are not required afterwards, they may be printed upon paper, and the columns themselves again used for other variables. In such cases the variables must have a new index; thus, <m:math alttext="^m V^n"><m:mmultiscripts><m:mi>V</m:mi><m:none/><m:mi>n</m:mi><m:mprescripts/><m:none/><m:mi>m</m:mi></m:mmultiscripts></m:math>. I propose to make <m:math alttext="n"><m:mi>n</m:mi></m:math> vary from 0 to 99. If more variables are required, these may be supplied by Variable Cards, which may follow each other in unlimited succession. Each card will cause its symbol to be printed with its proper indices.</p>
 			<p>For the sake of uniformity, I have used <m:math alttext="V"><m:mi>V</m:mi></m:math> with as many indices as may be required throughout the Engine. This, however, does not prevent the printed result of a development from being represented by any letters which may be thought to be more convenient. In that part in which the results are printed, type of any form may be used, according to the taste of the proposer of the question.</p>
 			<p>It thus appears that the two conditions, (<i>e</i>) and (<i>f</i>), which require that the number of constants and of variables should be unlimited, are both fulfilled.</p>
 			<p>The condition (<i>g</i>) requiring that the number of combinations of the four algebraic signs shall be unlimited, is easily fulfilled by placing them on cards in any order of succession the problem may require.</p>
@@ -381,7 +395,7 @@
 							<p>4 <i>d</i>.</p>
 						</td>
 						<td>
-							<p>Substitute successively for <m:math alttext="x"><m:mi>x</m:mi></m:math> in the original equation <m:math alttext="0 × 10 (super) n"><m:mn>0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <m:math alttext="1 × 10 (super) n"><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <m:math alttext="2 × 10 (super) n"><m:mn>2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <m:math alttext="3 × 10 (super) n"><m:mn>3</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>,⁠ ⁠… <m:math alttext="9 × 10 (super) n"><m:mn>9</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, until a change of sign occurs in the result. The digit previously substituted will be the first figure of the root sought.</p>
+							<p>Substitute successively for <m:math alttext="x"><m:mi>x</m:mi></m:math> in the original equation <m:math alttext="0 × 10 ^ n"><m:mn>0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <m:math alttext="1 × 10 ^ n"><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <m:math alttext="2 × 10 ^ n"><m:mn>2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <m:math alttext="3 × 10 ^ n"><m:mn>3</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>,⁠ ⁠… <m:math alttext="9 × 10 ^ n"><m:mn>9</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, until a change of sign occurs in the result. The digit previously substituted will be the first figure of the root sought.</p>
 						</td>
 					</tr>
 					<tr>
@@ -390,7 +404,7 @@
 						</td>
 						<td>
 							<p>Transform the original equation into another whose roots are less by the number thus found.</p>
-							<p>The transformed equation will have a real root, the digit, less than <m:math alttext="10 (super) n"><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>.</p>
+							<p>The transformed equation will have a real root, the digit, less than <m:math alttext="10 ^ n"><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>.</p>
 						</td>
 					</tr>
 					<tr>
@@ -398,7 +412,7 @@
 							<p>6 <i>f</i>.</p>
 						</td>
 						<td>
-							<p>Substitute <m:math alttext="1 × 10 (super) n - 1"><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, <m:math alttext="2 × 10 (super) n - 1"><m:mn>2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, <m:math alttext="3 × 10 (super) n - 1"><m:mn>3</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, <abbr>etc.</abbr>, successively for the root of this equation, until a change of sign occurs in the result, as in process 4.</p>
+							<p>Substitute <m:math alttext="1 × 10 ^ (n - 1)"><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, <m:math alttext="2 × 10 ^ (n - 1)"><m:mn>2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, <m:math alttext="3 × 10 ^ (n - 1)"><m:mn>3</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, <abbr>etc.</abbr>, successively for the root of this equation, until a change of sign occurs in the result, as in process 4.</p>
 							<p>This will give the second figure of the root.</p>
 							<p>This process of alternately finding a new figure in the root, and then transforming the equation into another (as in process 4 and 5), must be carried on until as many figures as are required, whether whole numbers or decimals, are arrived at.</p>
 						</td>
@@ -459,7 +473,7 @@
 			<p>If we wish to find when any number, which is increasing, exceeds in the number of its digits the number of wheels on the columns of the machine, the same carrying arm can be employed. Hence any directions may be given which the circumstances require.</p>
 			<p>It will be remarked that this does not actually prove, even in the Analytical Engine of fifty figures, that the number computed has passed through infinity; but only that it has become greater than any number of fifty places of figures.</p>
 			<p>There are, however, methods by which any machine made for a given number of figures may be made to compute the same formulæ with double or any multiple of its original number. But the nature of this work prevents me from explaining that method.</p>
-			<p>It may here be remarked that in the process, the cards employed to make the substitutions of the powers of ten are operation cards. They are, therefore, quite independent of the numerical values substituted. Hence the same set of <em>operation</em> cards which order the substitutions <m:math alttext="1 × 10 (super) n"><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math> will, if backed, order the substitution of <m:math alttext="2 × 10 (super) n"><m:mn>2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <abbr class="eoc">etc.</abbr> We may, therefore, avail ourselves of mechanism for backing these cards, and call it into action whenever the circumstances themselves require it.</p>
+			<p>It may here be remarked that in the process, the cards employed to make the substitutions of the powers of ten are operation cards. They are, therefore, quite independent of the numerical values substituted. Hence the same set of <em>operation</em> cards which order the substitutions <m:math alttext="1 × 10 ^ n"><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math> will, if backed, order the substitution of <m:math alttext="2 × 10 ^ n"><m:mn>2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>, <abbr class="eoc">etc.</abbr> We may, therefore, avail ourselves of mechanism for backing these cards, and call it into action whenever the circumstances themselves require it.</p>
 			<p>The explanation of <abbr>M.</abbr> Mosotti’s difficulty is this:⁠—Mechanical means have been provided for backing or advancing the operation cards to any extent. There exist means of expressing the conditions under which these various processes are required to be called into play. It is not even necessary that two courses only should be possible. Any number of courses may be possible at the same time; and the choice of each may depend upon any number of conditions.</p>
 			<p>It was during these meetings that my highly valued friend, <abbr>M.</abbr> Menabrea, collected the materials for that lucid and admirable description which he sub­se­quent­ly published in the <i epub:type="se:name.publication.journal" xml:lang="fr"><abbr>Bibli. Univ.</abbr> de Genève</i>, <abbr>t.</abbr> <span epub:type="z3998:roman">xli</span> <abbr>Oct.</abbr> 1842.</p>
 			<p>The elementary principles on which the Analytical Engine rests were thus in the first instance brought before the public by General Menabrea.</p>
