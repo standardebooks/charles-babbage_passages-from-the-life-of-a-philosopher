@@ -6,4 +6,16 @@
 			<reason>This case calls for very small margins for legibility.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lowercase letters are list ordinals.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-31.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lowercase letters are list ordinals.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
