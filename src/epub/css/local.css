@@ -13,7 +13,6 @@ footer{
 figure.full-page{
 	break-after: page;
 	break-before: page;
-	break-inside: avoid;
 	margin: 0;
 	max-height: 100vh;
 	text-align: center;
@@ -56,8 +55,8 @@ figure ul{
 
 table{
 	border-collapse: collapse;
-	margin: 1em auto;
 	break-inside: avoid;
+	margin: 1em auto;
 }
 
 caption{
@@ -409,13 +408,13 @@ figure > table td:first-child + td + td + td{
 
 /* multi-column lists in chapter 26 */
 #chapter-26 figure > ul{
+	break-inside: avoid;
 	columns: 2;
 	column-rule: solid 1px;
 	column-gap: 2em;
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
-	break-inside: avoid;
 }
 
 #chapter-26 figure ~ figure li:last-child{
