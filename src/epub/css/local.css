@@ -65,21 +65,21 @@ caption{
 
 th,
 td{
-	padding: .25em .5em;
 	font-weight: normal;
+	padding: .25em .5em;
 	text-align: initial;
 	vertical-align: bottom;
 }
 
 thead th{
-	text-align: center;
 	font-size: .75em;
+	text-align: center;
 	vertical-align: top;
 }
 
 td.numeral{
-	text-align: right;
 	font-variant-numeric: tabular-nums;
+	text-align: right;
 }
 
 td.result{
@@ -94,9 +94,9 @@ td.result{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -178,8 +178,8 @@ section > header [epub|type~="epigraph"] + *{
 }
 
 [epub|type~="se:letter.dateline"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="z3998:signature"],
@@ -250,8 +250,8 @@ p span.i1{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -270,8 +270,8 @@ p span.i1{
 }
 
 [epub|type~="z3998:stage-direction"]{
-	margin-bottom: .5em;
 	font-style: italic;
+	margin-bottom: .5em;
 }
 
 [epub|type~="z3998:stage-direction"]::before{
@@ -285,8 +285,8 @@ p span.i1{
 }
 
 [epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
 	font-style: normal;
+	font-variant: all-small-caps;
 }
 
 [epub|type~="z3998:drama"] footer{
@@ -295,8 +295,8 @@ p span.i1{
 
 [epub|type~="z3998:drama"] footer p:first-child{
 	display: block;
-	text-align: center;
 	margin: 3em;
+	text-align: center;
 }
 
 [epub|type~="z3998:drama"] footer p{
@@ -316,9 +316,9 @@ section[epub|type~="z3998:scene"] > p{
 /* number sequences in chapter 5 */
 .sequence{
 	list-style: none;
-	text-align: center;
 	margin: 1em auto;
 	padding: 0;
+	text-align: center;
 }
 
 .sequence > li{
@@ -360,8 +360,8 @@ figure > table th{
 }
 
 figure > table > thead th{
-	padding-top: 1em;
 	font-variant: small-caps;
+	padding-top: 1em;
 }
 
 figure > table th:first-child,
@@ -409,9 +409,9 @@ figure > table td:first-child + td + td + td{
 /* multi-column lists in chapter 26 */
 #chapter-26 figure > ul{
 	break-inside: avoid;
-	columns: 2;
-	column-rule: solid 1px;
 	column-gap: 2em;
+	column-rule: solid 1px;
+	columns: 2;
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
@@ -427,8 +427,8 @@ figure > table td:first-child + td + td + td{
 
 /* homophones in chapter 27 */
 #chapter-27 blockquote:first-of-type span{
-	vertical-align: middle;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 #chapter-27 blockquote:first-of-type span > span{
@@ -438,9 +438,9 @@ figure > table td:first-child + td + td + td{
 
 /* tic-tac-toe boards in chapter 34 */
 #chapter-34 figure:first-of-type > ol{
-	text-align: center;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 #chapter-34 figure:first-of-type > ol > li{
@@ -449,18 +449,18 @@ figure > table td:first-child + td + td + td{
 }
 
 #chapter-34 figure:first-of-type > ol table{
-	margin: 0;
 	border-color: transparent;
+	margin: 0;
 }
 
 #chapter-34 figure:first-of-type > ol td{
 	border: 1px solid;
-	width: 1em;
 	height: 1em;
 	line-height: 1;
+	padding: 0;
 	text-align: center;
 	vertical-align: middle;
-	padding: 0;
+	width: 1em;
 }
 
 #chapter-34 figure:first-of-type > ol tr:first-child td{
