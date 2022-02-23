@@ -78,6 +78,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
