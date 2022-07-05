@@ -350,6 +350,10 @@ section[epub|type~="z3998:scene"] > p{
 	padding-left: 0;
 }
 
+#chapter-5 table{
+	font-variant-numeric: tabular-nums;
+}
+
 /* punchcard in chapter 8 */
 figure > table{
 	border: 1px solid;
