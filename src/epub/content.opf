@@ -35,7 +35,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008107474</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="term" refines="#subject-2">n50031102</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<dc:description id="description">The eminent Victorian scientist and mathematician on his inventions, dreams and adventures.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
