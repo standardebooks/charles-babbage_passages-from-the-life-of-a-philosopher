@@ -47,7 +47,7 @@
 		<dc:source>https://archive.org/details/passagesfromlife00babb</dc:source>
 		<dc:source>https://archive.org/details/TO00961792_TO0324_62184_000000</dc:source>
 		<meta property="se:production-notes">All the SVGs have been recreated apart from the scanned frontispiece and occluding light in chapter 34. The frontispiece in the original scan was of a low quality, but I found a different scan with better quality that I’d referenced about (the second source) that I exclusively used for that image. Usually we omit things like the frontispiece and list of papers, but they are here referred to in the text. MathML in places, but the renderer in tools copes well. There’s some more advanced styling, but this has been wrapped in @supports blocks. Excessive italics is just copying the original: where words were in MW they’ve been removed.</meta>
-		<meta property="se:word-count">141339</meta>
+		<meta property="se:word-count">141335</meta>
 		<meta property="se:reading-ease.flesch">56.29</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-babbage_passages-from-the-life-of-a-philosopher</meta>
 		<dc:creator id="author">Charles Babbage</dc:creator>
