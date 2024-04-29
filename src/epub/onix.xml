@@ -34,6 +34,11 @@
 				<ProductFormFeatureValue>14</ProductFormFeatureValue>
 			</ProductFormFeature>
 			<ProductFormFeature>
+				<!--Accessible math content as MathML-->
+				<ProductFormFeatureType>09</ProductFormFeatureType>
+				<ProductFormFeatureValue>17</ProductFormFeatureValue>
+			</ProductFormFeature>
+			<ProductFormFeature>
 				<!--Language tagging provided-->
 				<ProductFormFeatureType>09</ProductFormFeatureType>
 				<ProductFormFeatureValue>22</ProductFormFeatureValue>
