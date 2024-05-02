@@ -4,7 +4,7 @@
 		<Sender>
 			<SenderName>Standard Ebooks</SenderName>
 		</Sender>
-		<SentDateTime>2014-05-25T00:00:00Z</SentDateTime>
+		<SentDateTime>2024-05-01T00:00:00Z</SentDateTime>
 	</Header>
 	<Product>
 		<DescriptiveDetail>
@@ -32,11 +32,6 @@
 				<!--Short alternative descriptions-->
 				<ProductFormFeatureType>09</ProductFormFeatureType>
 				<ProductFormFeatureValue>14</ProductFormFeatureValue>
-			</ProductFormFeature>
-			<ProductFormFeature>
-				<!--Accessible math content as MathML-->
-				<ProductFormFeatureType>09</ProductFormFeatureType>
-				<ProductFormFeatureValue>17</ProductFormFeatureValue>
 			</ProductFormFeature>
 			<ProductFormFeature>
 				<!--Language tagging provided-->
