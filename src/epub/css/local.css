@@ -448,7 +448,7 @@ figure > table td:first-child + td + td + td{
 
 #chapter-34 figure:first-of-type > ol > li{
 	display: inline-block;
-	margin: 0 0.5em;
+	margin: 0 .5em;
 }
 
 #chapter-34 figure:first-of-type > ol table{
