@@ -167,11 +167,13 @@ section > header [epub|type~="epigraph"] + *{
 	text-align: right;
 }
 
+#dedication > p:first-of-type,
 [epub|type~="z3998:signature"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
+#dedication > p:first-of-type + p,
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
