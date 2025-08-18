@@ -21,6 +21,7 @@
 		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
+		<meta property="schema:accessibilityFeature">displayTransformability</meta>
 		<meta property="schema:accessibilityFeature">describedMath</meta>
 		<meta property="schema:accessibilityFeature">MathML</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
@@ -29,7 +30,6 @@
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
-		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Passages from the Life of a Philosopher</dc:title>
 		<meta property="file-as" refines="#title">Passages from the Life of a Philosopher</meta>
 		<dc:subject id="subject-1">Mathematicians -- Great Britain -- Biography</dc:subject>
