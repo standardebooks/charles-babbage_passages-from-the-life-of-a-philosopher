@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-22.xhtml">
-		<ignore>
-			<code>y-036</code>
+		<ignore code="y-036">
 			<reason>Match is as-is in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-27.xhtml">
-		<ignore>
-			<code>c-013</code>
+		<ignore code="c-013">
 			<reason>This case calls for very small margins for legibility.</reason>
 		</ignore>
 	</file>
