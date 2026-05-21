@@ -142,7 +142,7 @@ section > header [epub|type~="epigraph"] + *{
 	font-variant: small-caps;
 }
 
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -150,11 +150,11 @@ section > header [epub|type~="epigraph"] + *{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
+[epub|type~="se:bridgehead"] i{
 	font-style: normal;
 }
 
-[epub|type~="epigraph"] + [epub|type~="bridgehead"]::before{
+[epub|type~="epigraph"] + [epub|type~="se:bridgehead"]::before{
 	border-top: 1px solid;
 	content: "";
 	display: block;
