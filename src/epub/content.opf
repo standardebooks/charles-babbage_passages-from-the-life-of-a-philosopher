@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-babbage/passages-from-the-life-of-a-philosopher</dc:identifier>
 		<dc:date>2019-07-20T21:10:32Z</dc:date>
 		<meta property="dcterms:modified">2019-07-20T21:10:32Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -38,7 +39,7 @@
 		<meta property="term" refines="#subject-1">sh2008107474</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">n50031102</meta>
-		<meta property="se:subject">Autobiography</meta>
+		<meta property="schema:genre">Autobiography</meta>
 		<dc:description id="description">The eminent Victorian scientist and mathematician on his inventions, dreams and adventures.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/charles-babbage"&gt;Charles Babbage&lt;/a&gt; was a Victorian polymath, and someone with a seemingly never-ending intellectual curiosity about the world around him. A mathematician by training, he also wrote copiously on subjects such as economics, physics, engineering, computation, cryptography, religion and education, along with conducting practical experiments with pretty much anything that had grabbed his interest at the time. Today, he’s widely viewed to be the father of the computer with his Difference and Analytical Engines. Although neither were fully completed during his lifetime, a working replica of the Difference Engine was built in the 1990s, and an Analytical Engine is currently in the planning stages.&lt;/p&gt;
@@ -48,14 +49,15 @@
 		<dc:source>https://www.gutenberg.org/ebooks/57532</dc:source>
 		<dc:source>https://archive.org/details/passagesfromlife00babb</dc:source>
 		<dc:source>https://archive.org/details/TO00961792_TO0324_62184_000000</dc:source>
-		<meta property="se:production-notes">All the SVGs have been recreated apart from the scanned frontispiece and occluding light in chapter 34. The frontispiece in the original scan was of a low quality, but I found a different scan with better quality that I’d referenced about (the second source) that I exclusively used for that image. Usually we omit things like the frontispiece and list of papers, but they are here referred to in the text. MathML in places, but the renderer in tools copes well. There’s some more advanced styling, but this has been wrapped in @supports blocks. Excessive italics is just copying the original: where words were in MW they’ve been removed.</meta>
-		<meta property="se:word-count">140879</meta>
-		<meta property="se:reading-ease.flesch">56.49</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-babbage_passages-from-the-life-of-a-philosopher</meta>
+		<meta property="schema:wordCount">140879</meta>
+		<meta property="schema:educationalLevel">56.49</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/charles-babbage_passages-from-the-life-of-a-philosopher" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Charles Babbage</dc:creator>
 		<meta property="file-as" refines="#author">Babbage, Charles</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_Babbage</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50031102</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Babbage" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50031102.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -63,18 +65,18 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Samuel Laurence</dc:contributor>
 		<meta property="file-as" refines="#artist">Laurence, Samuel</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Samuel_Laurence</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr92022510</meta>
+		<link href="https://en.wikipedia.org/wiki/Samuel_Laurence" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr92022510.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">RichardW</dc:contributor>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -84,7 +86,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
