@@ -33,7 +33,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Passages from the Life of a Philosopher</dc:title>
 		<meta property="file-as" refines="#title">Passages from the Life of a Philosopher</meta>
-		<dc:subject id="subject-1">Mathematicians -- Great Britain -- Biography</dc:subject>
+		<dc:subject id="subject-1">Mathematicians--Great Britain--Biography</dc:subject>
 		<dc:subject id="subject-2">Babbage, Charles, 1791-1871</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008107474</meta>
