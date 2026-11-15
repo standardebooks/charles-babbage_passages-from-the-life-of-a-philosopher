@@ -400,12 +400,17 @@ figure > table td:first-child + td + td + td{
 /* multi-column lists in chapter 26 */
 #chapter-26 figure > ul{
 	break-inside: avoid;
-	column-gap: 2em;
-	column-rule: solid 1px;
-	columns: 2;
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
+}
+
+@supports(columns: 2){
+	#chapter-26 figure > ul{
+		column-gap: 2em;
+		column-rule: solid 1px;
+		columns: 2;
+	}
 }
 
 #chapter-26 figure ~ figure li:last-child{
