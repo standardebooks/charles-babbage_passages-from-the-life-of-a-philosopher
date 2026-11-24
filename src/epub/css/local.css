@@ -502,3 +502,33 @@ figure > table td:first-child + td + td + td{
 		margin-top: 1.5em;
 	}
 }
+
+ol.inline{
+	list-style-position: inside;
+	margin: 0;
+	padding-left: 0;
+}
+
+ol.inline > li{
+	text-indent: 1em;
+}
+
+ol.inline > li > p:first-child{
+	display: inline;
+}
+
+h3 + ol.inline > li:first-child,
+hr + ol.inline > li:first-child{
+	text-indent: 0;
+}
+
+@supports selector(::marker){
+	ol.inline > li::marker{
+		font-variant-numeric: inherit;
+		white-space: normal;
+	}
+}
+
+#chapter-9 ol.inline{
+	list-style-type: upper-roman;
+}
