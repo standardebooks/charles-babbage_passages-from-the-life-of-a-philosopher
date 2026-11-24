@@ -49,7 +49,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/57532</dc:source>
 		<dc:source>https://archive.org/details/passagesfromlife00babb</dc:source>
 		<dc:source>https://archive.org/details/TO00961792_TO0324_62184_000000</dc:source>
-		<meta property="schema:wordCount">140879</meta>
+		<meta property="schema:wordCount">140855</meta>
 		<meta property="schema:educationalLevel">56.49</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
